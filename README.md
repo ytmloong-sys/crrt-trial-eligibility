@@ -28,7 +28,8 @@ analysis environment and must be adapted locally.
 If you use this code, cite the manuscript and the archived release DOI:
 
 ```
-DOI: [to be assigned by Zenodo]
+DOI: 10.5281/zenodo.23634333
+Concept DOI: 10.5281/zenodo.23634332
 ```
 
 ## License
