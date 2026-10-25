@@ -1,0 +1,14 @@
+# patient data
+*.csv
+*.parquet
+*.gz
+*.rar
+*.zip
+
+# outputs
+outputs/
+
+# local
+.venv/
+__pycache__/
+*.pyc

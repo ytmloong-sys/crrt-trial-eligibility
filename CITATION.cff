@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the manuscript and the archived release."
+title: "Trial eligibility gap in continuous renal replacement therapy"
+authors:
+  - family-names: "[Author 1]"
+    given-names: "[Given name]"
+version: 1.0.0
+date-released: 2026-10-25
+license: MIT
+repository-code: "https://github.com/[USER]/[REPO]"
+url: "https://doi.org/[ZENODO_DOI]"

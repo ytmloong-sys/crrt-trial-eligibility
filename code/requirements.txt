@@ -1,0 +1,7 @@
+pandas
+numpy
+duckdb
+pyarrow
+matplotlib
+python-docx
+google-cloud-bigquery
