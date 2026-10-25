@@ -7,5 +7,5 @@ authors:
 version: 1.0.0
 date-released: 2026-10-25
 license: MIT
-repository-code: "https://github.com/[USER]/[REPO]"
-url: "https://doi.org/[ZENODO_DOI]"
+repository-code: "https://github.com/ytmloong-sys/crrt-trial-eligibility"
+url: "https://doi.org/10.5281/zenodo.23634333"
