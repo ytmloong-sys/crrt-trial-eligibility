@@ -3,10 +3,9 @@
   "description": "Analysis code for a cross-sectional analysis of 15 randomized CRRT trials with external validation in eICU-CRD, SICdb, and AmsterdamUMCdb.",
   "creators": [
     {
-      "name": "[Author 1]"
-    },
-    {
-      "name": "[Author 2]"
+      "name": "Chulong, Xie",
+    "affiliation": "Sun Yat-sen University cancer center",
+    "orcid": "0000-0002-4159-2968"
     }
   ],
   "license": "MIT",
