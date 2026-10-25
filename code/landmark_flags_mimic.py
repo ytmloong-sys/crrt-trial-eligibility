@@ -10,7 +10,8 @@ def add_flags(df):
     for c in ["mv","vaso","sepsis","ckd","esrd","transplant","cirrhosis","cancer","chf","copd","obstruction","gn_vasculitis","prior_rrt","death_24h"]:
         if c not in df.columns: df[c]=0
         df[c]=pd.to_numeric(df[c],errors="coerce").fillna(0).astype(int)
-    df["female"]=(df["gender"].astype(str).str.upper().str[0]=="F").astype(int)
+    g=df["gender"].astype(str).str.lower()
+    df["female"]=(g.str.startswith("f")|g.str.startswith("vrouw")).astype(int)
     df["creat_ratio"]=df["creat_max_24h"]/df["baseline_creat"]
     def egfr(scr,age,female):
         if pd.isna(scr) or pd.isna(age) or scr<=0: return np.nan

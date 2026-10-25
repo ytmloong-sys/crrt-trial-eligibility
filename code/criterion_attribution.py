@@ -4,7 +4,7 @@ sys.stdout.reconfigure(encoding="utf-8")
 D=Path(r"C:\Users\28212\Documents\deepseek-harness\default-workspace\crrt_liberation")/"data"
 cohorts={
 "MIMIC":pd.read_csv(D/"trial_variables_with_flags.csv"),
-"eICU":pd.read_csv(D/"eicu_crrt_cohort.csv"),
+"eICU":pd.read_csv(D/"eicu_crrt_cohort_v2.csv"),
 "SICdb":pd.read_csv(D/"sicdb_crrt_cohort.csv"),
 "Amsterdam":pd.read_csv(D/"amsterdam_crrt_cohort.csv"),
 }

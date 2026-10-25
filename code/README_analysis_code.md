@@ -11,6 +11,8 @@ criterion-attribution and pooled estimates.
 - SICdb v1.0.8 (PhysioNet; credentialed access)
 - AmsterdamUMCdb v1.0.2 (PhysioNet; credentialed access)
 
+Archived release concept DOI: 10.5281/zenodo.23634332 (v1.0.0 version DOI: 10.5281/zenodo.23634333).
+
 No patient-level data are included. All databases remain under their respective
 data use agreements.
 
