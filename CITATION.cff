@@ -2,10 +2,12 @@ cff-version: 1.2.0
 message: "If you use this code, please cite the manuscript and the archived release."
 title: "Trial eligibility gap in continuous renal replacement therapy"
 authors:
-  - family-names: "Chulong"
-    given-names: "Xie"
-version: 1.0.0
+  - family-names: "Xie"
+    given-names: "Chulong"
+    affiliation: "Sun Yat-sen University Cancer Center"
+    orcid: "0000-0002-4159-2968"
+version: 1.0.1
 date-released: 2026-10-25
 license: MIT
 repository-code: "https://github.com/ytmloong-sys/crrt-trial-eligibility"
-url: "https://doi.org/10.5281/zenodo.23634333"
+url: "https://doi.org/10.5281/zenodo.23639700"
