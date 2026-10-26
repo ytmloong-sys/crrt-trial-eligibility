@@ -1,13 +1,22 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the manuscript and the archived release."
-title: "Trial eligibility gap in continuous renal replacement therapy"
+title: "Four RRT timing trials define distinct eligibility profiles among adults receiving CRRT"
 authors:
   - family-names: "Xie"
     given-names: "Chulong"
-    affiliation: "Sun Yat-sen University Cancer Center"
+    affiliation: "Intensive Care Unit, Sun Yat-sen University Cancer Center"
     orcid: "0000-0002-4159-2968"
-version: 1.0.1
-date-released: 2026-10-25
+  - family-names: "Liu"
+    given-names: "Jiaqing"
+    affiliation: "Intensive Care Unit, Sun Yat-sen University Cancer Center"
+  - family-names: "Lu"
+    given-names: "Zijian"
+    affiliation: "Intensive Care Unit, Sun Yat-sen University Cancer Center"
+  - family-names: "Chen"
+    given-names: "Zegeng"
+    affiliation: "Intensive Care Unit, Sun Yat-sen University Cancer Center"
+version: 1.0.2
+date-released: 2026-10-26
 license: MIT
 repository-code: "https://github.com/ytmloong-sys/crrt-trial-eligibility"
-url: "https://doi.org/10.5281/zenodo.23639700"
+url: "https://doi.org/10.5281/zenodo.23664537"
