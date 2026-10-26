@@ -1,20 +1,29 @@
 {
-  "title": "Trial eligibility gap in continuous renal replacement therapy",
-  "description": "Analysis code for a cross-sectional analysis of 15 randomized CRRT trials with external validation in eICU-CRD, SICdb, and AmsterdamUMCdb.",
+  "title": "Four RRT timing trials define distinct eligibility profiles among adults receiving CRRT",
+  "description": "Analysis code for the four-database study of eligibility for four RRT timing trials.",
   "creators": [
     {
-      "name": "Chulong, Xie",
-    "affiliation": "Sun Yat-sen University cancer center",
-    "orcid": "0000-0002-4159-2968"
+      "name": "Xie, Chulong",
+      "affiliation": "Intensive Care Unit, Sun Yat-sen University Cancer Center",
+      "orcid": "0000-0002-4159-2968"
+    },
+    {
+      "name": "Liu, Jiaqing",
+      "affiliation": "Intensive Care Unit, Sun Yat-sen University Cancer Center"
+    },
+    {
+      "name": "Lu, Zijian",
+      "affiliation": "Intensive Care Unit, Sun Yat-sen University Cancer Center"
+    },
+    {
+      "name": "Chen, Zegeng",
+      "affiliation": "Intensive Care Unit, Sun Yat-sen University Cancer Center"
     }
   ],
-  "license": "MIT",
-  "keywords": [
-    "acute kidney injury",
-    "continuous renal replacement therapy",
-    "randomized controlled trials",
-    "external validity"
-  ],
+  "version": "1.0.2",
+  "publication_date": "2026-10-26",
   "upload_type": "software",
-  "access_right": "open"
+  "access_right": "open",
+  "license": "MIT",
+  "doi": "10.5281/zenodo.23664537"
 }
