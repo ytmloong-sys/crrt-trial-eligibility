@@ -1,37 +1,21 @@
-# CRRT trial-eligibility study
+# crrt-trial-eligibility
 
 Analysis code for:
 
-> Trial eligibility gap in continuous renal replacement therapy: a cross-sectional
-> analysis of 15 randomized trials with external validation in three ICU databases.
+**Four RRT timing trials define distinct eligibility profiles among adults receiving continuous renal replacement therapy: a four-database cohort study**
 
-## What this repository contains
+## Archive
 
-- SQL and Python code for the MIMIC-IV derivation cohort
-- Code for eICU-CRD, SICdb, and AmsterdamUMCdb external cohorts
-- Criterion-level attribution
-- ICU-admission landmark sensitivity
-- Random-effects pooled estimates and figures
+- Version DOI: https://doi.org/10.5281/zenodo.23664537
+- Concept DOI: https://doi.org/10.5281/zenodo.23634332
 
-## Data
+## Contents
 
-No patient-level data are included. MIMIC-IV, eICU-CRD, SICdb, and AmsterdamUMCdb
-are available from PhysioNet to credentialed users under their data use agreements.
+- Pre-admission 365-day baseline construction
+- Three-window AKIKI-2 operationalization, including <0.3 mL/kg/h
+- Corrected RIFLE failure definition (absolute creatinine >=4.0 mg/dL requires acute rise >=0.5 mg/dL)
+- Strict / Unknown / upper-bound AKIKI-2 logic
+- Pairwise eligibility overlap
+- Figure generation
 
-## Reproduce
-
-See `code/README_analysis_code.md`. Paths in the scripts reflect the original
-analysis environment and must be adapted locally.
-
-## Citation
-
-If you use this code, cite the manuscript and the archived release DOI:
-
-```
-DOI: 10.5281/zenodo.23634333
-Concept DOI: 10.5281/zenodo.23634332
-```
-
-## License
-
-MIT for the code; the manuscript text and figures remain the authors' copyright.
+Patient-level data are not included. MIMIC-IV, eICU-CRD, SICdb, and AmsterdamUMCdb must be obtained under their respective data use agreements.
