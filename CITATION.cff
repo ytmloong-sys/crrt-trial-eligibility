@@ -15,8 +15,8 @@ authors:
   - family-names: "Chen"
     given-names: "Zegeng"
     affiliation: "Intensive Care Unit, Sun Yat-sen University Cancer Center"
-version: 1.0.3
+version: 1.0.4
 date-released: 2026-10-26
 license: MIT
 repository-code: "https://github.com/ytmloong-sys/crrt-trial-eligibility"
-url: "https://doi.org/10.5281/zenodo.23667368"
+url: "https://doi.org/10.5281/zenodo.23682841"
